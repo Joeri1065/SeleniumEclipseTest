@@ -11,7 +11,7 @@ driver = webdriver.Chrome()
 #maximize the window size  
 driver.maximize_window()  
 #delete the cookies  
-driver.delete_all_cookies()  
+driver.delete_all_cookies() 
 #navigate to the url  
 driver.get("http://www.google.com")
 #accept cookies
