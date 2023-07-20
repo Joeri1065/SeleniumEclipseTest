@@ -1,0 +1,19 @@
+1. Test_Steps moet worden aangepast naar:
+
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+
+Password:
+&FK#1Bi2$EtX!zTr
+
+
+Update dependencies:
+https://help.mulesoft.com/s/article/how-to-check-the-latest-release-version-of-dependencies-in-maven-3#:~:text=Go%20to%20Preferences%20%2D%3E%20Anypoint%20Studio,display%2Ddependency%2Dupdates%22.
+mvn versions:display-dependency-updates
+mvn versions:display-plugin-updates
+mvn versions:use-latest-versions
+
+
+
+WebDriverWait wait = new WebDriverWait(driver, 10);    ->     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
